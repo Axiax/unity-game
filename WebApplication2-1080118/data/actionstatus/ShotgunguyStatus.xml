@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Shotgunguy>
+	<move name = "charge">
+		<time value = "1"/>
+		<time2 value = "7"/>
+		<pos value = "5"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="0"/>
+	</move>
+	<long name = "reload">
+		<time value = "0.2"/>
+		<time2 value = "0"/>
+		<pos value = "0"/>
+		<speed value = "1"/>
+		<vector3 x = "0" y = "0" z = "0"/>
+	</long>
+	<long name = "shoot">
+		<time value = "1.3"/>
+		<time2 value = "0.4"/>
+		<pos value = "8"/>
+		<speed value = "0"/>
+		<vector3 x="0" y="0" z="0"/>
+	</long>
+	<long name = "movingshoot">
+		<time value = "1.3"/>
+		<time2 value = "0.5"/>
+		<pos value = "2"/>
+		<speed value = "0"/>
+		<vector3 x="0" y="0" z="0"/>
+	</long>
+	<close name = "runaway">
+		<time value = "0"/>
+		<time2 value = "0"/>
+		<pos value = "1"/>
+		<speed value = "2"/>
+		<vector3 x="0" y="0" z="0"/>
+	</close>
+</Shotgunguy>

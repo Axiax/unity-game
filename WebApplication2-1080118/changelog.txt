@@ -1,0 +1,45 @@
+2019/01/07--
+	PlayerAvater的"animator.IsInTransition(0)"區域刪除
+	PlayerAvater新增跑酷雛形
+2019/01/09
+	AInodeBase增加formationPoint欄位接收AICommander命令
+	ActionBasicBuilder增加了TakeCoverPath和takecover
+	SampleScene場景追加的三面牆方便測試掩體AI
+	AICommander新增了ChangeTactic方法。
+01/11
+	新增了NavGrid類，和NavPoint結構作為熱量圖的預備
+	AICommander在Changetactic的ISAWAKE預留了熱量圖的巡路空間
+	AICommander新增找尋範圍內隨機點的辦法。
+
+01/14
+	修改了RandomPosition的random公式
+	修改了change_tactic內的Awake現在隨機巡路上線了
+	在NavGrid裡面新增了dropfire作為熱圖準備
+	刪除了player,shotgunsergent,AIbase於場景
+01/15
+	熱圖功能雛型完成，目前還是暫用小隊抽選+個人巡路
+	新增了DrawGizmo於AICommander,NavGrid用於熱圖Debug
+	UnityChanAction新增了magnet_melee，提供"吸附式"追尾攻擊
+	並簡單的寫了迴避
+	槍枝新增了後座力雛形於Gun裡面的Fire方法
+	砲彈完成了雛形於Arty_class
+	PlayerAvater補上了註釋，並新增了After_action狀態觸發器
+01/16
+	PlayerAvater內OnCollisionEnter跑酷更新，等待狀態機
+	ActionList裡面Jump的公式更新
+	場地切換成跑酷測試用，rebake全部場景
+	ActionBasicBuilder追加FPSLikeMovement
+	AvaterMain內修改了跳躍觸發的方式
+	AfterAction方法測試通過
+1/17
+	PlayerAvater內的跑酷區新增了貼牆跑，掛豬肉
+	新增了OnDrawGizmos以便除錯
+	發現了內建的GRID系統
+01/18
+	UnityChanAction新增了跑酷區
+	並改變了jump的NowVector繼承方法
+	將Before_改成void而不是bool
+	現在跑牆會重置跳躍，預計下一版改掉
+	PlayerAvater新增了col，代表被碰撞的物件
+	跳躍高度被修改為10(暫時
+	場地新增更高的牆

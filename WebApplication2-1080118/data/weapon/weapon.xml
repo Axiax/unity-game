@@ -1,0 +1,16 @@
+<weapon>
+	<range>
+		<rifle>
+			<basicgun name ="basicgun" type ="bullet" damage = "10" magsize = "2" bulletusedpershot = "1" rof = "0.3" dropoff = "1" speed = "10" recoil = "1" acc = "90" maxammo = "300" nowammo = "999" stun = "0" blast = "0" charge = "0"/>
+			<MG name ="MG" type ="bullet" damage = "7" magsize = "200" bulletusedpershot = "1" rof = "1" dropoff = "1" speed = "10" recoil = "1" acc = "90" maxammo = "300" nowammo = "999" stun = "0" blast = "0" charge = "0"/>
+		</rifle>
+		<rocket>
+			<bazooka name ="bazooka" type ="rocket" damage = "100" magsize = "100" bulletusedpershot = "1" rof = "5" dropoff = "1" speed = "10" recoil = "1" acc = "90" maxammo = "10" nowammo = "10" stun = "999" blast = "1" charge = "0"/>
+		</rocket>
+	</range>
+	<close>
+		<sword>
+			<katana name ="katana" type ="sword" damage = "10" magsize = "2" bulletusedpershot = "1" rof = "0.3" dropoff = "1" speed = "10" recoil = "1" acc = "-1" maxammo = "300" nowammo = "999" stun = "1" blast = "10" charge = "0"/>
+		</sword>
+	</close>
+</weapon>

@@ -1,0 +1,1 @@
+"C:\Program Files\Unity\Editor\Unity.exe" -runTests -batchmode -projectPath "%~dp0" -testPlatform editmode

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Tofu>
+	<move name = "hover">
+		<time value = "0.5"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x = "0" y = "0" z = "1"/>
+	</move>
+	<move name = "bounce">
+		<time value = "0.4"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+	</move>
+	<long name = "gun">
+		<time value = "0.5"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+	</long>
+	<long name = "laser">
+		<time value = "0.75"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+	</long>
+	<close name = "fist">
+		<time value = "0.8"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+	</close>
+	<close name = "kick" next = "fist">
+		<time value = "0.2"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+	</close>
+</Tofu>

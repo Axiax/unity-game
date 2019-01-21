@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Imp>
+	<move name = "idle">
+		<time value = "0.5"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x = "0" y = "0" z = "1"/>
+		<ignore list = "0"/>
+	</move>
+	<move name = "walk">
+		<time value = "0.5"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x = "0" y = "0" z = "1"/>
+		<ignore list = "0"/>
+	</move>
+	<long name = "fireball">
+		<time value = "0.5"/>
+		<time2 value = "0.75"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+		<ignore list = "0"/>
+	</long>
+	<long name = "reload">
+		<time value = "0.1"/>
+		<time2 value = "0.75"/>
+		<pos value = "1"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+		<ignore list = "0"/>
+	</long>
+	<close name = "jumpslash" next = "fireball">
+		<time value = "1"/>
+		<time2 value = "0.3"/>
+		<pos value = "6"/>
+		<speed value = "10"/>
+		<vector3 x="0" y="0" z="1"/>
+		<ignore list = "0"/>
+	</close>
+</Imp>
