@@ -11,6 +11,7 @@ using UnityEngine.AI;
 
 namespace Assets.Script.Avater
 {
+//test
     class AINodeBase:AvaterMain
     {
         public AIBase AiBase;
